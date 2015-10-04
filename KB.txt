@@ -1,0 +1,17 @@
+## Extend logical volume and file system and 
+https://www.centos.org/docs/5/html/Cluster_Logical_Volume_Manager/lv_extend.html
+
+1. extend logical volume
+lvextend -L100G /dev/mapper/vg_cnb39-lv_data
+vgdisplay
+lvdisplay
+df -h
+
+2. extend file system
+http://www.tldp.org/HOWTO/LVM-HOWTO/extendlv.html
+cd /dev/mapper
+umount vg_cnb39-lv_data
+e2fsck -f vg_cnb39-lv_data
+resize2fs vg_cnb39-lv_data
+mount vg_cnb39-lv_data
+df -h
