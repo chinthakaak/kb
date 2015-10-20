@@ -1,3 +1,6 @@
+## force maven updates
+mvn clean compile -U
+
 ## Extend logical volume and file system and 
 https://www.centos.org/docs/5/html/Cluster_Logical_Volume_Manager/lv_extend.html
 
