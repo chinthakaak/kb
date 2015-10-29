@@ -1,5 +1,9 @@
-guest additions
+## CentOS KB
+# guest additions
 sudo /media/VBOXADDITIONS_5.0.0_101573/autorun.sh
+
+# show desktop
+Add to Panel > show desktop from panel
 
 ## force maven updates
 mvn clean compile -U
