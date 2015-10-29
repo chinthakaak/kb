@@ -1,3 +1,6 @@
+## Karaf
+ssh -p 8101 admin@localhost
+
 ## CentOS KB
 # guest additions
 sudo /media/VBOXADDITIONS_5.0.0_101573/autorun.sh
