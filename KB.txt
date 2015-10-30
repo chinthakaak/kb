@@ -1,3 +1,11 @@
+
+#svn
+    (mc) mine-conflict - accept my version for all conflicts (same)
+    (tc) theirs-conflict - accept their version for all conflicts (same)
+
+    (mf) mine-full - accept my version of entire file (even non-conflicts)
+    (tf) theirs-full - accept their version of entire file (same)
+
 # international dial
 90061425657404
 
