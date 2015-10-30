@@ -1,3 +1,6 @@
+# international dial
+90061425657404
+
 ## Karaf
 ssh -p 8101 admin@localhost
 
