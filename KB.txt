@@ -1,3 +1,5 @@
+# Idea short cuts
+Two shifts - method search
 
 #svn
     (mc) mine-conflict - accept my version for all conflicts (same)
