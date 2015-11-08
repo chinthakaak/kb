@@ -1,3 +1,8 @@
+# oracle user passwords
+system / manager
+sys/manager for sysdba
+hbdb / password
+
 # IOT laptop
 cnb39 dell lattitude e5420 n series
 Drivers for Service Tag 2KNZBT1
