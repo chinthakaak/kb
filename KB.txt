@@ -1,3 +1,35 @@
+# oracle tablespace issue
+http://www.midvision.com/community/code-blog-for-developers/bid/275526/How-to-drop-an-Oracle-tablespace-if-you-accidentally-delete-its-datafile
+SQL> connect sys/password as sysdba
+ Connected.
+
+SQL> startup mount
+ ORACLE instance started.Total System Global Area  603979776 bytes
+ Fixed Size               1260292 bytes
+ Variable Size          163579132 bytes
+ Database Buffers       436207616 bytes
+ Redo Buffers             2932736 bytes
+ Database mounted.
+
+SQL> SELECT dd.tablespace_name tablespace_name, dd.file_name file_name FROM sys.dba_data_files dd;
+
+TABLESPACE_NAME            FILE_NAME
+--------------------------------------------
+USERS                      /usr/lib/oracle/xe/oradata/XE/users.dbf
+SYSAUX                     /usr/lib/oracle/xe/oradata/XE/sysaux.dbf
+UNDO                       /usr/lib/oracle/xe/oradata/XE/undo.dbf
+SYSTEM                     /usr/lib/oracle/xe/oradata/XE/system.dbf
+DEMO_TABLESPACE            /opt/apps/oraclexe/demo/demo_tablespace_data.dbf
+
+SQL> alter database datafile '/opt/apps/oraclexe/demo/demo_tablespace_data.dbf' offline drop;
+ Database altered.
+
+SQL> alter database open;
+ Database altered.
+
+SQL> drop tablespace demo_tablespace_data including contents cascade constraints;
+ Tablespace dropped.
+ 
 # oracle user passwords
 system / manager
 sys/manager for sysdba
