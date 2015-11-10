@@ -1,3 +1,19 @@
+# Key. A key is one or more data attributes that uniquely identify an entity.  In a physical database a key would be formed of one or more table columns whose value(s) uniquely identifies a row within a relational table. 
+Composite key. A key that is composed of two or more attributes. 
+
+# Natural key. A key that is formed of attributes that already exist in the real world.  For example, U.S. citizens are issued a Social Security Number (SSN)  that is unique to them (this isn't guaranteed to be true, but it's pretty darn close in practice).  SSN could be used as a natural key, assuming privacy laws allow it, for a Person entity (assuming the scope of your organization is limited to the U.S.). 
+
+# Surrogate key. A key with no business meaning.
+
+# Candidate key. An entity type in a logical data model will have zero or more candidate keys, also referred to simply as unique identifiers (note: some people don't believe in identifying candidate keys in LDMs, so there's no hard and fast rules). For example, if we only interact with American citizens then SSN is one candidate key for the Person entity type and the combination of name and phone number (assuming the combination is unique) is potentially a second candidate key. Both of these keys are called candidate keys because they are candidates to be chosen as the primary key, an alternate key or perhaps not even a key at all within a physical data model. 
+
+# Primary key. The preferred key for an entity type.
+
+# Alternate key. Also known as a secondary key, is another unique identifier of a row within a table. 
+
+# Foreign key. One or more attributes in an entity type that represents a key, either primary or secondary, in another entity type.
+
+
 # oracle tablespace issue
 http://www.midvision.com/community/code-blog-for-developers/bid/275526/How-to-drop-an-Oracle-tablespace-if-you-accidentally-delete-its-datafile
 SQL> connect sys/password as sysdba
