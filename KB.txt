@@ -1,3 +1,9 @@
+############ Intellij Idea shortcuts ##############33
+Ctrl+D - Dupplicate lines
+Doble Shift - Search everywhere
+Shift+Enter - Start new line below
+Ctrl+ALt+Enter - Start new line above
+####################################################
 # Key. A key is one or more data attributes that uniquely identify an entity.  In a physical database a key would be formed of one or more table columns whose value(s) uniquely identifies a row within a relational table. 
 Composite key. A key that is composed of two or more attributes. 
 
