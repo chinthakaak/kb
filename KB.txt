@@ -1,10 +1,15 @@
 ############ Intellij Idea shortcuts ##############33
 Ctrl+D - Dupplicate lines
+Ctrl+Y - Remove line
 Doble Shift - Search everywhere
 Shift+Enter - Start new line below
 Ctrl+Alt+Enter - Start new line above
 Alt+Up - move method up
 Alt+Down - move method down
+Shift+Alt+Up - move line up
+Shift+Alt+Down - move line down
+Shift+Ctrl+Up - move statement up
+Shift+Ctrl+Down - move statement down
 Ctrl+Shift+Enter - end line with semicolon
 ####################################################
 # Key. A key is one or more data attributes that uniquely identify an entity.  In a physical database a key would be formed of one or more table columns whose value(s) uniquely identifies a row within a relational table. 
