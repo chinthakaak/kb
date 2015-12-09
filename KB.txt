@@ -1,5 +1,7 @@
 ## Karaf
 log-add --logger com.aepona.ase.services.terminalstatus.utils.TerminalStatusNotificationStatusEndEventTracker --level DEBUG
+list |grep TerminalStatus
+
 ############ Intellij Idea shortcuts ##############33
 Ctrl+D - Dupplicate lines
 Ctrl+Y - Remove line
