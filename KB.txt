@@ -1,3 +1,16 @@
+## Configure httpd load balancer
+1. add to /etc/httpd/conf/httpd.conf
+
+<Proxy balancer://mycluster>
+BalancerMember http://lisbon.aepona.com:9999
+BalancerMember http://10.30.0.235:9999
+</Proxy>
+ProxyPass /test balancer://mycluster
+
+2. webservice should be published on 0.0.0.0:9999
+
+3. URL to loadbalancer will be http://lisbon.aepona.com/test/ws/hello?wsdl
+
 ##
 publishing it on 0.0.0.0
 jax-ws Endpoint.publish should be done on 0.0.0.0 to work on machine IP
