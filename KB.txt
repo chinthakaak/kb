@@ -10,6 +10,16 @@ cat 307log |grep ASE-6728 -B2|grep ^r|
 
 cat 307log |grep ASE-6728 -B2|grep ^r | cut -c 2-8
 
+# get comma seperated with spaces
+cat 307log |grep ASE-6728 -B2|grep ^r | cut -c 2-8|sed -s 's/ /,/g'|tr '\n' ' '
+
+# get comma seperated with spaces without spaces
+cat 307log |grep ASE-6728 -B2|grep ^r | cut -c 2-8|sed ':a;N;$!ba;s/ \n/,/g'
+
+## loop through revisions file
+cat 307log |grep ASE-6728 -B2|grep ^r | cut -c 2-8 > test
+while read i;do echo $i; done < test;
+
 ## Windows java environment variables setting
 set JAVA_HOME=C:\Program Files\Java\jre1.8.0_60\
 
