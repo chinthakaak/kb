@@ -1,3 +1,8 @@
+## svn merge
+# getting help
+svn help log
+svn help merge
+
 ## Windows java environment variables setting
 set JAVA_HOME=C:\Program Files\Java\jre1.8.0_60\
 
