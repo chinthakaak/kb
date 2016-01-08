@@ -3,6 +3,13 @@
 svn help log
 svn help merge
 
+svn log --stop-on-copy http://xxxxbranch > ../branchlog
+
+# get svn log revisions
+cat 307log |grep ASE-6728 -B2|grep ^r|
+
+cat 307log |grep ASE-6728 -B2|grep ^r | cut -c 2-8
+
 ## Windows java environment variables setting
 set JAVA_HOME=C:\Program Files\Java\jre1.8.0_60\
 
