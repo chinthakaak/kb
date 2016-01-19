@@ -6,8 +6,8 @@ Set log level to WARN for ROOT
 karaf@development> ase:log-set com.aepona DEBUG
 Set log level to DEBUG for com.aepona
 karaf@development> 
-
 find-class AnnotationTransactionAttributeSourc
+imports 351 |grep transaction
 ## svn merge
 # getting help
 svn help log
