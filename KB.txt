@@ -8,6 +8,8 @@ Set log level to DEBUG for com.aepona
 karaf@development> 
 find-class AnnotationTransactionAttributeSourc
 imports 351 |grep transaction
+headers 351
+
 ## svn merge
 # getting help
 svn help log
