@@ -7,6 +7,7 @@ karaf@development> ase:log-set com.aepona DEBUG
 Set log level to DEBUG for com.aepona
 karaf@development> 
 
+find-class AnnotationTransactionAttributeSourc
 ## svn merge
 # getting help
 svn help log
