@@ -28,6 +28,9 @@ cat 307log |grep ASE-6728 -B2|grep ^r | cut -c 2-8|sed -s 's/ /,/g'|tr '\n' ' '
 # get comma seperated with spaces without spaces
 cat 307log |grep ASE-6728 -B2|grep ^r | cut -c 2-8|sed ':a;N;$!ba;s/ \n/,/g'
 
+# get comma seperated with spaces without spaces with sort
+cat 307log |grep ASE-6728 -B2|grep ^r | cut -c 2-8|sort|sed ':a;N;$!ba;s/ \n/,/g'
+
 ## loop through revisions file
 cat 307log |grep ASE-6728 -B2|grep ^r | cut -c 2-8 > test
 while read i;do echo $i; done < test;
