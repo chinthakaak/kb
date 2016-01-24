@@ -1,3 +1,18 @@
+ ## Oracle Apex database
+ Workspace Name
+COMPANY
+Description
+First Name
+kushan
+Last Name
+chinthaka
+Administrator Email
+chinthakaak@gmail.com
+Schema Name
+apexdb
+Database Size (MB)
+25
+
 #Karaf
 karaf@development> ase:log-set ROOT DEBUG
 Set log level to DEBUG for ROOT
