@@ -1,3 +1,6 @@
+ ## Maven commandline debug
+ mvn -Dmaven.surefire.debug test
+ 
  ## Oracle Apex database
  Workspace Name
 COMPANY
