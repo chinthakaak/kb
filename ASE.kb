@@ -1,0 +1,47 @@
+# ASE-3.1
+    Config Registry
+    new distribution
+    liquibase
+    ???
+    puppet / ???
+  
+  
+  
+# New ASE
+    Fuse removal / servicemix add
+    zookeeper removal 
+    fabric removal
+
+## Changes
+1. Config Registry - DB base config rgistry
+    1. JDBC for production 
+    2. File is for SDK(PME + ASE)
+
+    ASE node1-----
+                  ---- DB -this contains config registry
+    ASE node2-----
+    
+2. How karaf + new ASE works
+    - when a bundle is added, read config files from etc/{container version}/xxxx.cfg
+    - put the static configurations in DB
+    - If the bundle implementes AseManageServiceFactory, it reads property configs from DB and put them in ASEConfigCache.
+    
+3. new Distribution contains only 3 components. these can be independently deployable on nodes
+    1. PME
+    2. Broker - activemq
+    3. ASE
+    
+4. Liquibase
+    - db scripts are put in a central location in etc/{datasource}/, not like in all serviceses - dbfrags
+    
+    
+##
+    Servicemix
+    +
+    ???
+    +
+    Container Services
+    +
+    Feature Services
+    
+    
