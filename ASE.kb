@@ -30,6 +30,7 @@
     3. ASE
     
 4. Liquibase
+    - liquibase was previously automated, now changed to manual
     - db scripts are put in a central location in etc/{datasource}/, not like in all serviceses - dbfrags
     
 # PME 
