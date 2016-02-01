@@ -2,11 +2,9 @@
     Config Registry
     new distribution
     liquibase
-    ???
+    Maven plugin
     puppet / ???
-  
-  
-  
+
 # New ASE
     Fuse removal / servicemix add
     zookeeper removal 
@@ -22,8 +20,8 @@
     ASE node2-----
     
 2. How karaf + new ASE works
-    - when a bundle is added, read config files from etc/{container version}/xxxx.cfg
-    - put the static configurations in DB
+    - when a bundle is added, read config files from static - etc/{container version}/xxxx.cfg runtime-etc/{}/runtime
+    - put the configurations in DB
     - If the bundle implementes AseManageServiceFactory, it reads property configs from DB and put them in ASEConfigCache.
     
 3. new Distribution contains only 3 components. these can be independently deployable on nodes
@@ -34,8 +32,10 @@
 4. Liquibase
     - db scripts are put in a central location in etc/{datasource}/, not like in all serviceses - dbfrags
     
+# PME 
+    old PME war + jar
     
-##
+## ASE runtime jar contains
     Servicemix
     +
     ???
@@ -43,5 +43,4 @@
     Container Services
     +
     Feature Services
-    
     
