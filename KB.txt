@@ -1,5 +1,6 @@
 # karaf install bundle
 install mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.commons-dbcp/1.2.2_7
+install mvn:group-d/artifact-d/version
 
  ## Maven commandline debug
  mvn -Dmaven.surefire.debug test
