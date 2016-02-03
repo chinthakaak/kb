@@ -1,5 +1,8 @@
-# Run in background linux
-nohup fuse clean debug > /dev/null 2>&1 &
+# Run fuse in background
+./start clean debug &
+
+# run linux background
+nohup start clean debug > /dev/null 2>&1 &
 nohup node server.js &
 
 # karaf install bundle
