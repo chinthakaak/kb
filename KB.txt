@@ -1,3 +1,6 @@
+# Run in background linux
+nohup node server.js &
+
 # karaf install bundle
 install mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.commons-dbcp/1.2.2_7
 install mvn:group-d/artifact-d/version
