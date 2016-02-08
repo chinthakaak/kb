@@ -1,4 +1,4 @@
-# Run fuse in background
+# Run fuse or servicemix in background
 ./start clean debug &
 
 # run linux background
