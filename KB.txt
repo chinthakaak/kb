@@ -1,4 +1,4 @@
-# Service mix 5.5 war deployment - Web-ContextPath has changed from Webapp-Context to Web-ContextPath
+# Service mix 5.5 war deployment - Web-ContextPath has changed from Webapp-Context(in 4X) to Web-ContextPath(in 5x)
 http://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war?Bundle-SymbolicName=tomcat-sample&Web-ContextPath=sample
 # Run fuse or servicemix in background
 ./start clean debug &
