@@ -1,6 +1,12 @@
 # Service mix 5.5 war deployment - Web-ContextPath has changed from Webapp-Context(in 4X) to Web-ContextPath(in 5x)
 install -s webbundle:http://tomcat.apache.org/tomcat-5.5-doc/appdev/sample/sample.war?Bundle-SymbolicName=tomcat-sample&Web-ContextPath=/sample
 
+# For install spring based war - non osgi from file
+install -s webbundle:file:/data/git_projects/webapp-spring-mvc/target/spring-mvc-1.0-SNAPSHOT.war?Bundle-SymbolicName=web-mvc&Web-ContextPath=home
+
+However following issue exists for felix
+http://stackoverflow.com/questions/9215544/spring-felix-war-filenotfoundexception
+
 # Run fuse or servicemix in background
 ./start clean debug &
 
