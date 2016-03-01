@@ -1,3 +1,7 @@
+# grep with file name and line number
+grep -n sms *
+grep -H sms *
+
 # 1. Normal webapp war on servicemix 5.5
 ## Service mix 5.5 war deployment - Web-ContextPath has changed from Webapp-Context(in 4X) to Web-ContextPath(in 5x)
 install -s webbundle:http://tomcat.apache.org/tomcat-5.5-doc/appdev/sample/sample.war?Bundle-SymbolicName=tomcat-sample&Web-ContextPath=/sample
