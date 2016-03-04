@@ -76,8 +76,10 @@ headers 351
 svn help log
 svn help merge
 
-svn log --stop-on-copy http://xxxxbranch > ../branchlog
-svn log -l 4 ---- to specify limit
+svn log http://wandisco.aepona.com/svn/tws/usp/ase/services/trunk/sourceCode/ --stop-on-copy http://xxxxbranch > ../branchlog
+svn log http://wandisco.aepona.com/svn/tws/usp/ase/services/trunk/sourceCode/ -l 4 ---- to specify limit
+svn log http://wandisco.aepona.com/svn/tws/usp/ase/services/trunk/sourceCode/ |less
+
 
 # get svn log revisions
 cat 307log |grep ASE-6728 -B2|grep ^r|
