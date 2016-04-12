@@ -139,6 +139,7 @@ Shift+Alt+Down - move line down
 Shift+Ctrl+Up - move statement up
 Shift+Ctrl+Down - move statement down
 Ctrl+Shift+Enter - end line with semicolon
+sHIF+f4 - OPEN FILE IN NEW IDEA WINDOW
 ####################################################
 # Key. A key is one or more data attributes that uniquely identify an entity.  In a physical database a key would be formed of one or more table columns whose value(s) uniquely identifies a row within a relational table. 
 Composite key. A key that is composed of two or more attributes. 
