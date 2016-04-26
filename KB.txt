@@ -127,6 +127,7 @@ log-add --logger com.aepona.ase.services.terminalstatus.utils.TerminalStatusNoti
 list |grep TerminalStatus
 
 ############ Intellij Idea shortcuts ##############33
+Ctrl+Shift + or - collapse expand code lines
 Ctrl+D - Dupplicate lines
 Ctrl+Y - Remove line
 Doble Shift - Search everywhere
