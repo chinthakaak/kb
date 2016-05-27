@@ -1,3 +1,11 @@
+## International dial
++91 020 669 654xx
+
+replace + with 00
+e.g 
++91 020 669 654xx
+900 91 020 669 654xx
+
 ## Terminator title change
 echo -en "\e]0;string\a" #-- Set icon name and window title to string
 echo -en "\e]1;string\a" #-- Set icon name to string
