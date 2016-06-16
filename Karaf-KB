@@ -1,1 +1,10 @@
+# To run multiple karaf instances.
+1. Chagnge debug port
+/data/software/apache-karaf-2.4.1/bin/karaf.sh
+change 5005 to 5006
+2. change rmi port
+/data/software/apache-karaf-2.4.1/etc/org.apache.karaf.management.cfg
+change rmiServerPort = 44444 to 44445
+
+#
 
