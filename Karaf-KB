@@ -6,5 +6,7 @@ change 5005 to 5006
 /data/software/apache-karaf-2.4.1/etc/org.apache.karaf.management.cfg
 change rmiServerPort = 44444 to 44445
 
-#
-
+3. Change rmi url
+serviceUrl = service:jmx:rmi://${rmiServerHost}:${rmiServerPort}/jndi/rmi://${rmiRegistryHost}:${rmiRegistryPort}/karaf-${karaf.name}
+to
+serviceUrl = service:jmx:rmi://${rmiServerHost}:${rmiServerPort}/jndi/rmi://${rmiRegistryHost}:${rmiRegistryPort}/karaf1-${karaf.name}
