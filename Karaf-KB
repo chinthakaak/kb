@@ -10,3 +10,14 @@ change rmiServerPort = 44444 to 44445
 serviceUrl = service:jmx:rmi://${rmiServerHost}:${rmiServerPort}/jndi/rmi://${rmiRegistryHost}:${rmiRegistryPort}/karaf-${karaf.name}
 to
 serviceUrl = service:jmx:rmi://${rmiServerHost}:${rmiServerPort}/jndi/rmi://${rmiRegistryHost}:${rmiRegistryPort}/karaf1-${karaf.name}
+
+# Maven protocol
+mvn-uri := 'mvn:' [ repository-url '!' ] group-id '/' artifact-id [ '/' [version] [ '/' [type] [ '/' classifier ] ] ] ]
+repository-url := < rfc2396 uri > ; an url that points to a maven 2 repository
+group-id := < maven groupId > ; group id of maven artifact
+artifact-id := < maven artifactId > ; artifact id of maven artifact
+version := < maven version > | 'LATEST' | range ; version of maven artifact
+range := ( '[' | '(' ) version ',' version ( ')' | ']' )
+type := < maven type> ; type of maven artifact
+classifier := < maven classifier> ; maven artifact classifier
+
