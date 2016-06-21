@@ -85,6 +85,9 @@ imports 351 |grep transaction
 headers 351
 
 ## svn merge
+# from trunk get branch cut revisions
+svn log --stop-on-copy http://wandisco.aepona.com/svn/tws/usp/ase/services/branches/feature/20160218_ase_services_3.1.5_roadmap > tmp.txt
+
 # getting help
 svn help log
 svn help merge
