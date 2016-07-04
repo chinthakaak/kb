@@ -1,3 +1,7 @@
+## wget to down load files without html files
+ wget -r --no-parent -R index.html* http://quark.aepona.com/scratch/IBM_IOT_Training/Training/
+ 
+ 
 ## International dial
 +91 020 669 654xx
 
