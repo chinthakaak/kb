@@ -1,5 +1,16 @@
 ## GIT configure local and remote repositories
+1. initialize local repo
+git init
+Initialized empty Git repository in D:/data/vscode_projects/testgit/.git/
 
+2. Create git repository from git hub website and init it with commiting a readme file
+
+3. Add remote repo
+git remote add origin https://github.com/chinthakaak/test.git
+
+4. git pull origin master
+
+5. git push origin master
 
 
 ## wget to down load files without html files
