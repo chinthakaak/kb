@@ -1,3 +1,7 @@
+## Git useful
+# git checkout -b test == checkout a branch with new localbranch name
+#  git branch -r == list all remote branches
+
 ## GIT configure local and remote repositories
 1. initialize local repo
 git init
