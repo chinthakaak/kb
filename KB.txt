@@ -1,3 +1,6 @@
+# Chrome enable ssl certificates
+chrome://flags/#allow-insecure-localhost
+
 # Node useful
 D:\data\git_projects\apiconnect>npm config set cache D:\data\software\nodejs\vendor\npm-cache
 
