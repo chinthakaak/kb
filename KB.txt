@@ -1,3 +1,6 @@
+# Serach all
+grep -rl "string" /path
+
 # Chrome enable ssl certificates
 chrome://flags/#allow-insecure-localhost
 
