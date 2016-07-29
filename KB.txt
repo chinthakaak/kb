@@ -9,6 +9,16 @@ D:\data\git_projects\apiconnect>npm config set cache D:\data\software\nodejs\ven
 
 D:\data\git_projects\apiconnect>npm config set prefix D:\data\software\nodejs\vendor\npm
 
+npm config list
+
+# Bluemix credentials local
+C:\Users\kushan_chinthaka\_netrc
+
+machine us.apiconnect.ibmcloud.com
+  login apimanager/chinthakaak@gmail.com
+  password 1qaz2wsx@
+
+
 ## Git useful
 #  git checkout -b test == checkout a branch with new localbranch name
 #  git branch -r == list all remote branches
