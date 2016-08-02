@@ -34,3 +34,7 @@ git rebase
 git push
 
 The main point of using a visualizer is to help you make sense of your branch history.
+
+git log --all --source --pretty=oneline --graph
+
+git show-branch
