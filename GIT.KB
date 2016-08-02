@@ -32,3 +32,5 @@ git log --oneline --graph --color --all --decorate
 git rebase
 
 git push
+
+The main point of using a visualizer is to help you make sense of your branch history.
