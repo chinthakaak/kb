@@ -1,0 +1,16 @@
+git clone https://hub.jazz.net/git/iotimpl/IotElectronicAppliances
+git status
+git checkout api_connect
+gitk
+git gui
+
+git fetch
+
+
+
+$(catalog.host)
+ibm-iot.mybluemix.net
+git rebase
+
+git push
+git branches -a
