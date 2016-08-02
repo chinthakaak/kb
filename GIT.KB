@@ -6,6 +6,12 @@ git status
 git checkout api_connect
 git checkout master
 
+* apiconnect
+  master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+  
+
 gitk
 
 git gui
