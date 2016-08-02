@@ -1,15 +1,18 @@
 git clone https://hub.jazz.net/git/iotimpl/IotElectronicAppliances
+#check status of branch
 git status
+
+# switch between branches
 git checkout api_connect
+git checkout master
+
 gitk
+
 git gui
 
 git fetch
 
 
-
-$(catalog.host)
-ibm-iot.mybluemix.net
 git rebase
 
 git push
