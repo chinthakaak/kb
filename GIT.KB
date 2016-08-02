@@ -27,6 +27,8 @@ git fetch
 The label moves to new commits as they are created. When you create a git branch, 
 you are not changing anything in the structure of the repository or the source tree. You are just creating a new label.
 
+#
+git log --oneline --graph --color --all --decorate
 git rebase
 
 git push
