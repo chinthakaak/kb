@@ -10,8 +10,13 @@ git checkout master
   master
   remotes/origin/HEAD -> origin/master
   remotes/origin/master
-  
 
+# see all branches  
+git branch -a
+* apiconnect
+  master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
 gitk
 
 git gui
@@ -22,4 +27,3 @@ git fetch
 git rebase
 
 git push
-git branches -a
