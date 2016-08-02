@@ -11,7 +11,7 @@ git checkout master
   remotes/origin/HEAD -> origin/master
   remotes/origin/master
 
-# see all branches  
+# list both remote-tracking and local branches
 git branch -a
 * apiconnect
   master
@@ -23,6 +23,9 @@ git gui
 
 git fetch
 
+# In git, a branch is a label for a commit. 
+The label moves to new commits as they are created. When you create a git branch, 
+you are not changing anything in the structure of the repository or the source tree. You are just creating a new label.
 
 git rebase
 
