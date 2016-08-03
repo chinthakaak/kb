@@ -38,3 +38,5 @@ The main point of using a visualizer is to help you make sense of your branch hi
 git log --all --source --pretty=oneline --graph
 
 git show-branch
+
+# git pull is like a git fetch + git merge
