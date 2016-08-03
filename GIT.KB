@@ -43,3 +43,5 @@ git show-branch
 
 # You can do a git fetch at any time to update your remote-tracking branches under refs/remotes/<remote>/. 
 This operation never changes any of your own local branches under refs/heads, and is safe to do without changing your working copy.
+
+# git push origin intelli-washroom-apic
