@@ -1,3 +1,7 @@
+## Loopback issue in local loopback
+1. delete ~/.application
+2. delete ~/netrc
+
 # Serach all
 grep -rl "string" /path
 
