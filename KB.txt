@@ -1,4 +1,4 @@
-## Loopback issue in local loopback
+## API Connect / Loopback issue in local loopback example
 1. delete ~/.application
 2. delete ~/netrc
 
