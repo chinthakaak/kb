@@ -1,0 +1,33 @@
+cf api https://api.ng.bluemix.net/
+cf login -u chinthakaak@gmail.com -o chinthakaak -s dev
+
+
+D:\data\git_projects\smartrooom>cf api https://api.ng.bluemix.net/
+Setting api endpoint to https://api.ng.bluemix.net/...
+OK
+
+
+API endpoint:   https://api.ng.bluemix.net (API version: 2.54.0)
+Not logged in. Use 'cf login' to log in.
+
+D:\data\git_projects\smartrooom>cf login -u chinthakaak@gmail.com -o chinthakaak -s dev
+API endpoint: https://api.ng.bluemix.net
+
+Password>
+Authenticating...
+Credentials were rejected, please try again.
+
+Password>
+Authenticating...
+OK
+
+Targeted org chinthakaak
+
+Targeted space dev
+
+
+
+API endpoint:   https://api.ng.bluemix.net (API version: 2.54.0)
+User:           chinthakaak@gmail.com
+Org:            chinthakaak
+Space:          dev
