@@ -31,3 +31,17 @@ API endpoint:   https://api.ng.bluemix.net (API version: 2.54.0)
 User:           chinthakaak@gmail.com
 Org:            chinthakaak
 Space:          dev
+
+D:\data\git_projects\smartrooom>cf push smart-hospital-room                                       
+Creating app smart-hospital-room in org chinthakaak / space staging as chinthakaak@gmail.com...   
+OK                                                                                                
+                                                                                                  
+Using route smart-hospital-room.mybluemix.net                                                     
+Binding smart-hospital-room.mybluemix.net to smart-hospital-room...                               
+OK                                                                                                
+                                                                                                  
+Uploading smart-hospital-room...                                                                  
+Uploading app files from: D:\data\git_projects\smartrooom                                         
+Uploading 1M, 126 files                                                                           
+Done uploading                                                                                    
+OK                                                                                                
