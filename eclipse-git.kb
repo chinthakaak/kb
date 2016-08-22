@@ -11,6 +11,5 @@
 11. Team > Share Project>git
 12. Select previously created git local repo - /home/cloudera/git_projects/hadoop-training/.git from list
 13. Click finish
-14. Team > Remote > Commit
-15. Team > Remote > Push
-16. Select source and destination ref - master
+14. Team > Remote > Commit > Commit and push
+15. Select source and destination ref - master
