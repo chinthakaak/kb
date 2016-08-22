@@ -7,7 +7,7 @@
 7. Select destination directory - e.g. browse for /home/cloudera/git_projects/ it will automatically add hadoop-training folder
 8. Select use the new project wizard
 9. Click Finish
-10. Use wizard to create new project and delete it later if you do not need. Create new ones as necessary
+10. Use wizard to create new project and delete it later if you do not need. Create new ones as necessary. or import existing projects from workspaces
 11. Team > Share Project>git
 12. Select previously created git local repo - /home/cloudera/git_projects/hadoop-training/.git from list
 13. Click finish
