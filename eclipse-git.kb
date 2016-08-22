@@ -1,0 +1,7 @@
+1. Open eclipse in a new workspace
+2. Create git repo from eclipse.
+    i. File > New > Other > Git Repository
+    ii. Select local location for local repo - /home/cloudera/git_projects/hadoop-training
+    iii. Click finish
+3. Create new Java project
+4. Team > Share Project
