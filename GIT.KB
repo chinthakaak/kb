@@ -1,3 +1,6 @@
+#See git url commandline
+git remote show origin
+
 git clone https://hub.jazz.net/git/iotimpl/IotElectronicAppliances
 #check status of branch
 git status
