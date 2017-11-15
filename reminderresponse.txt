@@ -1,0 +1,55 @@
+{
+  "messageId": 1243,
+  "baseStationId": "10:10:01:d9:e9:e5",
+  "deviceId": "ACDEFf8mHNU5Lwva5RaJ-A==",
+  "eventTime": 1464273784,
+  "event": {
+    "elder": {
+      "elderId": "TLiRc7PQcQrxJkZgBixNcA==",
+      "genericReminderResponse": {
+        "genericReminderId": "CDEFf8mHNU5Lwva5RaJ-A==",
+        "response": "ACCEPTED"
+      }
+    }
+  }
+}
+
+497 = TLiRc7PQcQrxJkZgBixNcA==
+151 = Kw4PSaXt8DIVg9eFQlqTRg==
+
+
+elderpro
+
+{
+  "messageId": "1243",
+  "baseStationId": "10:10:01:d9:e9:e5",
+  "deviceId": "BVfW6TF5O1U1XRH3GgqsDA==",
+  "eventTime": 1510155822,
+  "event": {
+    "elder": {
+      "elderId": "TLiRc7PQcQrxJkZgBixNcA==",
+      "genericReminderResponse": {
+        "genericReminderId": "Kw4PSaXt8DIVg9eFQlqTRg==",
+        "response": "REJECTED"
+      }
+    }
+  }
+}
+
+
+Anthny
+{
+  "messageId": "1243",
+  "baseStationId": "7D:61:55:33:3A:9A",
+  "deviceId": "5HohMkA3KDWylZBPFB-MYw==",
+  "eventTime": 1510155822,
+  "event": {
+    "elder": {
+      "elderId": "5KJMRbIUsPzfD1QexFsSsw==",
+      "genericReminderResponse": {
+        "genericReminderId": "SgbjX3RT2hC37HNGKTNmDA==",
+        "response": "REJECTED"
+      }
+    }
+  }
+}
