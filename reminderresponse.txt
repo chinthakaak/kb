@@ -1,21 +1,18 @@
 {
-  "messageId": 1243,
+  "messageId": "1244-500",
   "baseStationId": "10:10:01:d9:e9:e5",
-  "deviceId": "ACDEFf8mHNU5Lwva5RaJ-A==",
-  "eventTime": 1464273784,
+  "deviceId": "ZEsCxkcyOSRSu-OEDcT1QQ==",
+  "eventTime": 1510155822,
   "event": {
     "elder": {
-      "elderId": "TLiRc7PQcQrxJkZgBixNcA==",
+      "elderId": "TjkwMVHCUPlnMKz7EmBw4Q==",
       "genericReminderResponse": {
-        "genericReminderId": "CDEFf8mHNU5Lwva5RaJ-A==",
-        "response": "ACCEPTED"
+        "genericReminderId": "t-OiYipVOMLn4z9wFdZ62A==",
+        "response": "REJECTED"
       }
     }
   }
 }
-
-497 = TLiRc7PQcQrxJkZgBixNcA==
-151 = Kw4PSaXt8DIVg9eFQlqTRg==
 
 
 elderpro
