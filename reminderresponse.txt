@@ -1,4 +1,20 @@
 {
+  "messageId": "3",
+  "baseStationId": "10:10:01:d9:e9:e5",
+  "deviceId": "ZEsCxkcyOSRSu-OEDcT1QQ==",
+  "eventTime": 1510155822,
+  "event": {
+    "elder": {
+      "elderId": "gp-IpvgmTQxtL9AtzuR3cA==",
+      "genericReminderResponse": {
+        "genericReminderId": "jKjv3JkiuZcehq6KrzHdZQ==",
+        "response": "REJECTED"
+      }
+    }
+  }
+}
+
+{
   "messageId": "1244-500",
   "baseStationId": "10:10:01:d9:e9:e5",
   "deviceId": "ZEsCxkcyOSRSu-OEDcT1QQ==",
